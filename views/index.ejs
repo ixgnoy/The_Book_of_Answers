@@ -1,0 +1,23 @@
+<!-- Step 3 Add Header -->
+<%- include("partials/header.ejs") %>
+
+<% if (locals.Answer) { %>
+  <h1>
+    <%= Answer %>
+  </h1>
+  <% } else { %>
+    <h1>Welcome to the Book of Answers❓</h1>
+    
+        <h3>Take 10 or 15 seconds to concentrate on your questions. Questions should be phrased
+            closed-end, 
+            eg. “ Is the job I’m applying for the right one?” or “ Should I travel this
+            weekend?”. 
+            Then, When you sense the time is right,click button "Generate Answer" and 
+            there will be your answer. 
+            Repeat the process for as many questions as you have.</h3>
+            <% } %>    
+<form action="/submit" method="POST">
+  <input type="submit" value="Generate Answer">
+</form>
+<!--  Add Footer -->
+<%- include("partials/footer.ejs") %>
