@@ -1,8 +1,4 @@
 <h1><a href="https://the-book-of-answers.onrender.com">The_Book_of_Answers</a></h1>
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Play The Book of Answers</title>
   <style>
     .play-button {
       padding: 15px 25px;
@@ -19,8 +15,7 @@
       background-color: #45a049;
     }
   </style>
-</head>
-<body>
+
   <h2>Want to try The Book of Answers?</h2>
   <a href="https://the-book-of-answers.onrender.com/" target="_blank">
     <button class="play-button">Play The Book of Answers</button>
