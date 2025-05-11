@@ -1,4 +1,33 @@
 <h1><a href="https://the-book-of-answers.onrender.com">The_Book_of_Answers</a></h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Play The Book of Answers</title>
+  <style>
+    .play-button {
+      padding: 15px 25px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .play-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h2>Want to try The Book of Answers?</h2>
+  <a href="https://the-book-of-answers.onrender.com/" target="_blank">
+    <button class="play-button">Play The Book of Answers</button>
+  </a>
+</body>
+</html>
+
 Curious whether you've made a correct decision or not? Try this to answer your question in your mind. <br>
 
 Here's a short reason why I did this:<br>
